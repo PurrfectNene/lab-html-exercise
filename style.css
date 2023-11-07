@@ -42,11 +42,27 @@ header div{
     width: 70px;
 }
 
-.header input{    
-    background: url("./images/magnifying-glass.png") top left no-repeat;
-    height:30px;
-    padding-left:25px; 
-    width: 100px;  
+.header form{    
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  position: relative;
+  top: 3px;
+    }
+
+.header input {
+  width: 800px;
+  margin-bottom: 5px;
+  padding: 12px 16px 12px 36px;
+  border: none;
+  background-color: rgba(232,217,217,.3);
+}
+
+.header .magnifying-glass {
+      position: relative;
+      left: 28px;
+      bottom: 2px;
+      width: 16px;
     }
 
 #triangle img {
