@@ -27,19 +27,33 @@ header div{
     text-decoration: none;
     color: black;
   }
+
+.header-links {
+  display:flex;
+  margin: 0px 50px 0 50px;
+}
   
 .black-heart img {
   width: 20px;
   margin-right: 1rem;
 }
 
+.black-heart {
+  border: none;
+}
+
 #npm-logo {
    width: 70px;
-   margin-right: 1rem;
+   margin-right: 1px;
 }
 
 #glass {
     width: 70px;
+}
+
+.header {
+  display:flex;
+  margin: 0px 50px 0 50px;
 }
 
 .header form{    
@@ -51,11 +65,12 @@ header div{
     }
 
 .header input {
-  width: 800px;
+  width: 1255px;
   margin-bottom: 5px;
   padding: 12px 16px 12px 36px;
   border: none;
   background-color: rgba(232,217,217,.3);
+  font-family: 'Poppins'
 }
 
 .header .magnifying-glass {
@@ -65,16 +80,136 @@ header div{
       width: 16px;
     }
 
-#triangle img {
-    width: 30%;
+.header #search {
+  border-style: solid;
+  border-color: #C70039;
+  background-color: #C70039;
+  font-weight: 60px;
+  color: white;
+  padding: 10px 0 10px 0;
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+#join a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins'
+}
+
+#join {
+  border-style: outset;
+  border-color: #F5F5F5;
+  padding: 5px 5px;
+  width: 60px;
+  height: 35px;
+  
+}
+
+.header #login-header{
+  text-decoration: none; 
+  color: black;
+}
+
+.build-amazing-things-section {
+  background-color: #F5F5F5;
+  margin: 0px 50px 0 50px;
+  padding: 100px 50px 200px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.build-amazing-things-section h1 {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+.build-amazing-things-section article{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#see-plans-and-join-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 500px 0 500px;
+}
+
+
+#see-plans {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#join-for-free {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+
+.triangle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.triangle-section img {
+    width: 15%;
     display: flex;
     justify-items: center;
 }
 
-#triangle {
-    align-items: center;
+.menu-section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.header form {
-    
+.menu-section a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins'
+}
+
+.menu-section button {
+  border-style: outset;
+  border-color: black;
+  background-color: black;
+  padding: 10px 100px;
+  margin: 50px 100px 50px 100px;
+}
+
+.menu4section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 990px;
+  margin: 0 auto;
+}
+
+#card {
+  width: 15%;
+}
+
+#card-title {
+  color: red;
+  font-weight: bold;
+}
+
+#article-section {
+  font-size: 13px;
 }
